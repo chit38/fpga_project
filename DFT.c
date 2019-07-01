@@ -18,8 +18,8 @@ int main(){
             real+= in[n][0]*cos(theta) - in[n][1]*sin(theta);
             imag+= in[n][0]*sin(theta) + in[n][1]*cos(theta);
         }
-        out[k][0]=real;
-        out[k][1]=imag;
+        out[k][0]=real/2;
+        out[k][1]=imag/2;
         real=0;imag=0;
     }
 
